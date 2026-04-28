@@ -1,0 +1,10 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.tinydb.studio
+productName: TinyDB Studio
+electronVersion: 20.3.10
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
